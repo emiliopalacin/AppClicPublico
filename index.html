@@ -9,6 +9,10 @@
 <body>
 
 <header>
+    <div class="logo-container">
+        <img src="https://drive.google.com/uc?id=1cDbXr7KIe3CZs0Zk7Y1b8Jq7ceZygmuc" alt="Logo AppClic" class="logo">
+        <span class="brand-name">AppClic</span>
+    </div>
     <nav>
         <a href="#inicio">Inicio</a>
         <a href="#servicios">Servicios</a>
@@ -17,32 +21,43 @@
     </nav>
 </header>
 
-<section id="inicio" class="seccion">
-    <h1>AppClic</h1>
-    <p>Aplicaciones personalizadas en Appsheet para pequeños negocios y proyectos específicos.</p>
-    <img src="https://drive.google.com/uc?id=1cDbXr7KIe3CZs0Zk7Y1b8Jq7ceZygmuc" alt="Logo AppClic" class="logo">
+<section id="inicio" class="hero">
+    <div class="hero-text">
+        <h1>Aplicaciones personalizadas para tu negocio</h1>
+        <p>Soluciones rápidas y económicas con AppSheet para optimizar tu gestión.</p>
+        <a href="#contacto" class="btn">Solicitar información</a>
+    </div>
 </section>
 
 <section id="servicios" class="seccion">
     <h2>Servicios</h2>
-    <ul>
-        <li>Evaluación de necesidades del cliente</li>
-        <li>Diseño de tablas, reportes y vistas personalizadas</li>
-        <li>Creación de roles y permisos</li>
-        <li>Capacitación y entrega de la aplicación</li>
-        <li>Planes desde 4 usuarios, con ampliaciones disponibles</li>
-    </ul>
+    <div class="servicios-container">
+        <div class="card">
+            <h3>Evaluación de necesidades</h3>
+            <p>Analizamos tu negocio para diseñar la aplicación ideal para ti.</p>
+        </div>
+        <div class="card">
+            <h3>Diseño y desarrollo</h3>
+            <p>Construimos tu app en AppSheet con tablas, reportes y roles personalizados.</p>
+        </div>
+        <div class="card">
+            <h3>Capacitación y soporte</h3>
+            <p>Te enseñamos a usar la app y brindamos soporte continuo.</p>
+        </div>
+    </div>
 </section>
 
 <section id="proyectos" class="seccion">
     <h2>Proyectos</h2>
-    <div class="proyecto">
-        <img src="https://drive.google.com/uc?id=1Cfzv0j04Ppn4-jvv3hf1CF6y0JiprorX" alt="Proyecto Negocio">
-        <a href="https://www.appsheet.com/Account/Login?appName=AppNegocio&FullScope=False&provider=google&returnUrl=https%3A%2F%2Fwww.appsheet.com%2Fstart%2Fcf939db8-3a69-4448-9fcf-dad338bbb719" target="_blank">Ver App Negocio</a>
-    </div>
-    <div class="proyecto">
-        <img src="https://drive.google.com/uc?id=18DJdovKWfZd3H96ZQj7hgGmSNcpTMuTP" alt="Proyecto Hogar">
-        <a href="https://www.appsheet.com/Account/Login?appName=AppNegocio&FullScope=False&provider=google&returnUrl=https%3A%2F%2Fwww.appsheet.com%2Fstart%2Fcf939db8-3a69-4448-9fcf-dad338bbb719" target="_blank">Ver App Hogar</a>
+    <div class="proyectos-container">
+        <div class="proyecto">
+            <img src="https://drive.google.com/uc?id=1Cfzv0j04Ppn4-jvv3hf1CF6y0JiprorX" alt="Proyecto Negocio">
+            <a href="https://www.appsheet.com/Account/Login?appName=AppNegocio&FullScope=False&provider=google&returnUrl=https%3A%2F%2Fwww.appsheet.com%2Fstart%2Fcf939db8-3a69-4448-9fcf-dad338bbb719" target="_blank">Ver App Negocio</a>
+        </div>
+        <div class="proyecto">
+            <img src="https://drive.google.com/uc?id=18DJdovKWfZd3H96ZQj7hgGmSNcpTMuTP" alt="Proyecto Hogar">
+            <a href="https://www.appsheet.com/Account/Login?appName=AppNegocio&FullScope=False&provider=google&returnUrl=https%3A%2F%2Fwww.appsheet.com%2Fstart%2Fcf939db8-3a69-4448-9fcf-dad338bbb719" target="_blank">Ver App Hogar</a>
+        </div>
     </div>
 </section>
 
@@ -58,7 +73,7 @@
             <option value="Otros">Otros</option>
         </select>
         <textarea name="preguntas" placeholder="Preguntas que desea resolver con la app"></textarea>
-        <button type="submit">Enviar</button>
+        <button type="submit" class="btn">Enviar</button>
     </form>
 </section>
 
